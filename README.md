@@ -1,5 +1,8 @@
 express-brute
 =============
+
+>Versión parcheada. 
+
 [![NPM Version](https://badge.fury.io/js/express-brute.png)](http://badge.fury.io/js/express-brute)
 [![NPM Downloads](https://img.shields.io/npm/dm/express-brute.svg?maxAge=2592000)](http://badge.fury.io/js/express-brute)
 [![Build Status](https://img.shields.io/travis/AdamPflug/express-brute.svg?maxAge=2592000)](https://travis-ci.org/AdamPflug/express-brute)
