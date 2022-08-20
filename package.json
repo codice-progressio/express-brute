@@ -21,8 +21,8 @@
     "access": "public"
   },
   "engines": {
-    "node": "14.x.x",
-    "npm": "6.x.x"
+    "node": "16.x.x",
+    "npm": "8.x.x"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
     "chai": "~3.5.0",
     "coveralls": "^3.1.0",
     "istanbul": "~0.4.3",
-    "mocha": "^8.4.0",
+    "mocha": "^10.0.0",
     "mocha-lcov-reporter": "~1.2.0",
     "sinon": "~1.17.3",
     "sinon-chai": "~2.8.0"
