@@ -1,6 +1,6 @@
 {
   "name": "@codice-progressio/express-brute",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "A brute-force protection middleware for express routes that rate limits incoming requests",
   "keywords": [
     "brute",
@@ -17,7 +17,6 @@
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha spec",
     "release": "npx standard-version && git push --follow-tags && npm publish"
-
   },
   "publishConfig": {
     "access": "public"
