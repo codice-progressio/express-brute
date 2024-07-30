@@ -15,14 +15,16 @@
   "license": "BSD",
   "private": false,
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha spec"
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha spec",
+    "release": "npx standard-version && git push --follow-tags && npm publish"
+
   },
   "publishConfig": {
     "access": "public"
   },
   "engines": {
-    "node": "16.x.x",
-    "npm": "8.x.x"
+    "node": "20.x.x",
+    "npm": "10.x.x"
   },
   "repository": {
     "type": "git",
@@ -45,8 +47,5 @@
     "js-yaml": "^4.1.0",
     "long-timeout": "~0.1.1",
     "underscore": "^1.13.1"
-  },
-  "peerDependencies": {
-    "express": "4.x"
   }
 }
