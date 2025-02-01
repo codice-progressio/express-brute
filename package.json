@@ -1,6 +1,6 @@
 {
   "name": "@codice-progressio/express-brute",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "description": "A brute-force protection middleware for express routes that rate limits incoming requests",
   "keywords": [
     "brute",
